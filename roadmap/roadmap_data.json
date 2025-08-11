@@ -1,0 +1,314 @@
+{
+  "title": "MIT 6.0001 Python Course",
+  "description": "Intro to Computer Science and Programming in Python - MIT OpenCourseWare",
+  "nodes": [
+    {
+      "node_id": "intro",
+      "label": "Introduction to Computation",
+      "description": "Overview of computation, algorithms, and programming fundamentals.",
+      "position_x": 0,
+      "position_y": 0,
+      "dependencies": [],
+      "resources": [
+        {
+          "title": "MIT Lecture 1: What is Computation?",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-1-what-is-computation/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Official Tutorial - Introduction",
+          "url": "https://docs.python.org/3/tutorial/introduction.html",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Course Syllabus",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+          "type": "course",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "variables",
+      "label": "Variables and Data Types",
+      "description": "Understanding variables, data types, and basic operations in Python.",
+      "position_x": 300,
+      "position_y": 0,
+      "dependencies": ["intro"],
+      "resources": [
+        {
+          "title": "MIT Lecture 2: Branching and Iteration",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-2-branching-and-iteration/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Data Types Tutorial",
+          "url": "https://docs.python.org/3/tutorial/introduction.html#numbers",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 1",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps1/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "functions",
+      "label": "Functions and Abstraction",
+      "description": "Function definition, parameters, scope, and abstraction principles.",
+      "position_x": 600,
+      "position_y": 0,
+      "dependencies": ["variables"],
+      "resources": [
+        {
+          "title": "MIT Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-3-string-manipulation-guess-and-check-approximations-bisection/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Functions Tutorial",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 2",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps2/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "loops",
+      "label": "Loops and Iteration",
+      "description": "For and While loops, iteration patterns, and control flow.",
+      "position_x": 900,
+      "position_y": 0,
+      "dependencies": ["functions"],
+      "resources": [
+        {
+          "title": "MIT Lecture 4: Decomposition, Abstraction, and Functions",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-4-decomposition-abstraction-and-functions/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Loops Tutorial",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html#for-statements",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 3",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps3/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "tuples_lists",
+      "label": "Tuples and Lists",
+      "description": "Sequences, mutability, and higher-order operations on data structures.",
+      "position_x": 1200,
+      "position_y": 0,
+      "dependencies": ["loops"],
+      "resources": [
+        {
+          "title": "MIT Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-5-tuples-lists-aliasing-mutability-and-cloning/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Data Structures Tutorial",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 4",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps4/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "recursion",
+      "label": "Recursion and Dictionaries",
+      "description": "Recursive functions, dictionaries, and advanced data structures.",
+      "position_x": 1500,
+      "position_y": 0,
+      "dependencies": ["tuples_lists"],
+      "resources": [
+        {
+          "title": "MIT Lecture 6: Recursion and Dictionaries",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-6-recursion-and-dictionaries/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Recursion Tutorial",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 5",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps5/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "testing",
+      "label": "Testing and Debugging",
+      "description": "Testing methodologies, debugging techniques, and exception handling.",
+      "position_x": 1800,
+      "position_y": 0,
+      "dependencies": ["recursion"],
+      "resources": [
+        {
+          "title": "MIT Lecture 7: Testing, Debugging, Exceptions, and Assertions",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-7-testing-debugging-exceptions-and-assertions/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Testing Tutorial",
+          "url": "https://docs.python.org/3/library/unittest.html",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 6",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps6/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "object_oriented",
+      "label": "Object-Oriented Programming",
+      "description": "Classes, objects, inheritance, and object-oriented design principles.",
+      "position_x": 2100,
+      "position_y": 0,
+      "dependencies": ["testing"],
+      "resources": [
+        {
+          "title": "MIT Lecture 8: Object Oriented Programming",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-8-object-oriented-programming/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Classes Tutorial",
+          "url": "https://docs.python.org/3/tutorial/classes.html",
+          "type": "docs",
+          "source": "Python.org"
+        },
+        {
+          "title": "MIT Problem Set 7",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps7/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        }
+      ]
+    },
+    {
+      "node_id": "complexity",
+      "label": "Computational Complexity",
+      "description": "Algorithm analysis, Big O notation, and efficiency considerations.",
+      "position_x": 2400,
+      "position_y": 0,
+      "dependencies": ["object_oriented"],
+      "resources": [
+        {
+          "title": "MIT Lecture 9: Python Classes and Inheritance",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-9-python-classes-and-inheritance/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "MIT Lecture 10: Understanding Program Efficiency, Part 1",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-10-understanding-program-efficiency-part-1/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Performance Tutorial",
+          "url": "https://docs.python.org/3/library/timeit.html",
+          "type": "docs",
+          "source": "Python.org"
+        }
+      ]
+    },
+    {
+      "node_id": "search_sort",
+      "label": "Search and Sort Algorithms",
+      "description": "Linear and binary search, sorting algorithms, and their implementations.",
+      "position_x": 2700,
+      "position_y": 0,
+      "dependencies": ["complexity"],
+      "resources": [
+        {
+          "title": "MIT Lecture 11: Understanding Program Efficiency, Part 2",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-11-understanding-program-efficiency-part-2/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "MIT Lecture 12: Searching and Sorting Algorithms",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-12-searching-and-sorting-algorithms/",
+          "type": "video",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Sorting Tutorial",
+          "url": "https://docs.python.org/3/howto/sorting.html",
+          "type": "docs",
+          "source": "Python.org"
+        }
+      ]
+    },
+    {
+      "node_id": "final_project",
+      "label": "Final Project",
+      "description": "Comprehensive project applying all learned concepts.",
+      "position_x": 3000,
+      "position_y": 0,
+      "dependencies": ["search_sort"],
+      "resources": [
+        {
+          "title": "MIT Final Project Guidelines",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/final-project/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "MIT Course Final Exam",
+          "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/final-exam/",
+          "type": "assignment",
+          "source": "MIT OCW"
+        },
+        {
+          "title": "Python Project Ideas",
+          "url": "https://docs.python.org/3/tutorial/index.html",
+          "type": "docs",
+          "source": "Python.org"
+        }
+      ]
+    }
+  ]
+}

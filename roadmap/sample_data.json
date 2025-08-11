@@ -1,0 +1,54 @@
+[
+  {
+    "model": "roadmap.courseroadmap",
+    "pk": 1,
+    "fields": {
+      "title": "Python Programming",
+      "description": "Learn Python from basics to advanced."
+    }
+  },
+  {
+    "model": "roadmap.roadmapnode",
+    "pk": 1,
+    "fields": {
+      "node_id": "intro",
+      "title": "Introduction to Python",
+      "description": "What is Python, why use it?",
+      "course": 1,
+      "position_x": 100,
+      "position_y": 100
+    }
+  },
+  {
+    "model": "roadmap.roadmapnode",
+    "pk": 2,
+    "fields": {
+      "node_id": "basics",
+      "title": "Python Basics",
+      "description": "Syntax, variables, data types.",
+      "course": 1,
+      "position_x": 200,
+      "position_y": 150
+    }
+  },
+  {
+    "model": "roadmap.roadmapnoderesource",
+    "pk": 1,
+    "fields": {
+      "node": 1,
+      "title": "Python Intro Video",
+      "description": "YouTube: Introduction to Python",
+      "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+    }
+  },
+  {
+    "model": "roadmap.roadmapnoderesource",
+    "pk": 2,
+    "fields": {
+      "node": 2,
+      "title": "Learn Python Basics",
+      "description": "Official Python Docs",
+      "link": "https://docs.python.org/3/tutorial/"
+    }
+  }
+]
